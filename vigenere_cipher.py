@@ -11,5 +11,10 @@ for i in range(len(message)):
     key_rep.append(key_num[key_index])
     key_index = (key_index + 1) % len(key)
 # encrypt by adding message and key, take the result and use mod 26
+ciphertext_num = []
+for i in range(len(message)):
+    mn = message_num[i]
+    kr = key_rep[i]
+    ciphertext_num.append((mn+kr) % 26)
 # convert ciphertext numbers to letters
 # print the output
