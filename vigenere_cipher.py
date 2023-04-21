@@ -21,3 +21,5 @@ ciphertext = ""
 for c in ciphertext_num:
     ciphertext += chr(c+65)
 # print the output
+print("\n","\033[4m"+"\033[1;36m"+ciphertext)
+# run program & test this text: Message: THISISTHELASTTASKHOORDAY & Key: KNIGHTS
