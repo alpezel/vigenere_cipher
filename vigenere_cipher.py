@@ -17,4 +17,7 @@ for i in range(len(message)):
     kr = key_rep[i]
     ciphertext_num.append((mn+kr) % 26)
 # convert ciphertext numbers to letters
+ciphertext = ""
+for c in ciphertext_num:
+    ciphertext += chr(c+65)
 # print the output
