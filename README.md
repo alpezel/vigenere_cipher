@@ -31,6 +31,3 @@ Ciphertext: E M V C K H M W V R I L A W Y
 3. Open an IDE and paste the code. 
 4. Save the file with a .py extension. 
 5. Run the code. 
-6. It will ask you to enter an encrypted message. Press Enter after inputting your message.
-7. The decrypted text will be displayed.
-8. If you want to repeat the Decryption just type "YES" if not Type "NO" and after that the program will end and the word "Thank you !!" will appear.
